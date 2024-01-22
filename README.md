@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+HOW TO RUN:
 
-Things you may want to cover:
+1. bundle install
+2. yarn install
+3. bin/dev
 
-* Ruby version
 
-* System dependencies
+The main code are on :
 
-* Configuration
+app/controllers/home_controller.rb
+app/javascripts/controllers/fetch_image_controller.js
 
-* Database creation
 
-* Database initialization
+There are several ways to achieve the async things. 
+1. using js ( stimulus js ) without hitting the rails controller. 
+2. Using JS hitting the rails controller
+3. Using websocket and Active Job
 
-* How to run the test suite
+   i used no 2 because the requirement are should use ruby on rails. 
+   i could use another options based on the situations and the requirement
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
+Regards
+   
 * ...
