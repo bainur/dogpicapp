@@ -1,0 +1,18 @@
+<div class="row" data-controller="fetch-image">
+  <div class="col-md-6 p-4">
+    <form>
+      <div class="form-group row">
+      <div class="col-8">
+        <input type="text" data-fetch-image-target="breed" value="havanese" class="form-control">
+      </div>
+      <div class="col-4">
+        <button type="submit" data-action="click->fetch-image#fetch" class="btn btn-primary">Submit</button>
+      </div>
+      </div>
+    </form>
+  </div>
+  <div class="col-md-6 p-4">
+    <h4 data-fetch-image-target="name"></h4>
+    <img data-fetch-image-target="image" class="img-fluid">
+  </div>
+</div>
