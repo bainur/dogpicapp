@@ -9,8 +9,8 @@ HOW TO RUN:
 
 The main code are on :
 
-app/controllers/home_controller.rb
-app/javascripts/controllers/fetch_image_controller.js
+app/controllers/home_controller.rb https://github.com/bainur/dogpicapp/blob/master/app/javascript/controllers/fetch_image_controller.js
+app/javascripts/controllers/fetch_image_controller.js https://github.com/bainur/dogpicapp/blob/master/app/javascript/controllers/fetch_image_controller.js
 
 
 There are several ways to achieve the async things. 
